@@ -33,7 +33,7 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #0ba2db;
+	color: #00A437;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -52,7 +52,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #0ba2db;
+	background: #00A437;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	border: 0;
@@ -73,7 +73,7 @@ hr {
 	text-transform: uppercase;
 }
 #menu a.navbar-brand i.fa {
-	color: #0ba2db;
+	color: #00A437;
 	vertical-align: top;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -84,7 +84,7 @@ hr {
 	letter-spacing: 1px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #0ba2db;
+	color: #00A437;
 }
 .on {
 	background-color: #f6f6f6 !important;
@@ -92,15 +92,15 @@ hr {
 	padding: 10px 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #0ba2db !important;
+	color: #00A437 !important;
 	background-color: transparent;
 }
 .navbar-toggle {
 	border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #0ba2db;
-	border-color: #0ba2db;
+	background-color: #00A437;
+	border-color: #00A437;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
@@ -114,7 +114,7 @@ hr {
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #0ba2db;
+	background-color: #00A437;
 	border: 0;
 	padding: 14px 20px;
 	margin: 0;
@@ -143,7 +143,7 @@ hr {
 	background: rgba(255,255,255,0.2);
 }
 .intro h1 {
-	color: #0ba2db;
+	color: #00A437;
 	font-size: 74px;
 	font-weight: 600;
 	margin-top: 0;
@@ -174,7 +174,7 @@ header .intro-text {
 }
 #about img {
 	display: inline-block;
-	border-color: #0ba2db;
+	border-color: #00A437;
 	border-radius: 20px;
 	padding: 20px;
 }
@@ -187,7 +187,7 @@ header .intro-text {
 }
 #about .about-text li:before {
 	content: "✓";
-	color: #0ba2db;
+	color: #00A437;
 	padding-right: 10px;
 }
 #about p {
@@ -205,7 +205,7 @@ header .intro-text {
 #services .fa {
 	font-size: 48px;
 	margin: 20px 0;
-	color: #0ba2db;
+	color: #00A437;
 }
 /* Pricing Section */
 #pricing {
@@ -231,7 +231,7 @@ header .intro-text {
 	z-index: 1;
 }
 #pricing .pricing-table.highlight-plan .plan-name {
-	background-color: #0ba2db;
+	background-color: #00A437;
 	padding: 25px 0;
 	border-radius: 4px 4px 0 0;
 }
@@ -239,7 +239,7 @@ header .intro-text {
 	color: #fff;
 }
 #pricing .pricing-table.highlight-plan .plan-signup {
-	background-color: #0ba2db;
+	background-color: #00A437;
 	padding: 30px 0;
 	border-radius: 0 0 4px 4px;
 }
@@ -269,8 +269,8 @@ header .intro-text {
 	line-height: 18px;
 }
 .pricing-table.btn-system.border-btn {
-	border-color: #0ba2db;
-	color: #0ba2db;
+	border-color: #00A437;
+	color: #00A437;
 }
 .pricing-table .plan-list li {
 	padding: 8px;
@@ -284,7 +284,7 @@ header .intro-text {
 	padding: 10px 25px;
 	display: inline-block;
 	color: #fff;
-	background-color: #0ba2db;
+	background-color: #00A437;
 	margin-right: 5px;
 	font-size: 16px;
 	border-radius: 2px;
@@ -375,7 +375,7 @@ color: #777;
 #contact .social i.fa {
 	font-size: 26px;
 	padding: 4px;
-	color: #0ba2db;
+	color: #00A437;
 	transition: all 0.3s;
 }
 #contact .social i.fa:hover {
@@ -405,7 +405,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #666;
 }
 #footer a:hover {
-	color: #0ba2db;
+	color: #00A437;
 }
 
 @media (max-width: 1024px) {
