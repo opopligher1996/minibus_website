@@ -312,6 +312,14 @@ header .intro-text {
 .pricing-table .plan-signup a {
 	text-transform: uppercase;
 }
+
+.news-title {
+	margin-bottom: 70px;
+	text-align: center;
+}
+.news-title p {
+	font-size: 18px;
+}
 /* Contact Section */
 #contact {
 	padding: 120px 0 60px 0;
@@ -406,6 +414,39 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #footer a:hover {
 	color: #00A437;
+}
+
+/*	SECTIONS
+*/
+.section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	position: relative;
+	overflow: hidden;
+}
+.section .background-image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+h2.section-title {
+	font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin-bottom: 80px;
+}
+p.section-description {
+	font-weight: lighter;
+	font-size: 16px;
+}
+h2.section-title + p {
+	margin-top: -70px;
+	margin-bottom: 80px;
 }
 
 @media (max-width: 1024px) {
