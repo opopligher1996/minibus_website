@@ -464,3 +464,20 @@ h2.section-title + p {
 .red {
    background-color: #dc3545;
 }
+.divider {
+	margin: auto;
+	border-top: 5px solid #00A437;
+	width: 56px;
+	margin-top: 18px;
+	margin-bottom: 24px;
+}
+.desc {
+	text-align: center;
+	padding-top: 108px;
+}
+.middle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
