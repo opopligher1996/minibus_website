@@ -1,5 +1,6 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 body, html {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Noto Sans TC', 'Roboto', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #666;
@@ -480,4 +481,8 @@ h2.section-title + p {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+.btn-primary {
+	background-color: #00A437;
+	border: none;
 }
