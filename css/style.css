@@ -241,12 +241,12 @@ header .intro-text {
 #pricing .pricing-table.highlight-plan .plan-name h3 {
 	color: #fff;
 }
-#pricing .pricing-table.highlight-plan .plan-signup {
+.plan-signup {
 	background-color: #00A437;
 	padding: 30px 0;
 	border-radius: 0 0 4px 4px;
 }
-#pricing .pricing-table.highlight-plan .plan-signup .btn-system.border-btn {
+.plan-signup .btn-system.border-btn {
 	border-color: #fff;
 	color: #fff;
 }
