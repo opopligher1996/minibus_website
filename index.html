@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>小巴到哪兒</title>
+<title>智能交通實踐社</title>
 <meta name="description" content="">
 <meta name="author" content="">
 
@@ -38,7 +38,13 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-bookmark-o"></i> 智能交通實踐社</a> </div>
+      <a class="navbar-brand page-scroll" href="#page-top">
+        <div class="logo-container">
+          <div class="logo"><img src="img/cm.png"></div>
+          <span>智能交通實踐社</span>
+        </div>
+      </a>
+      </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -77,16 +83,20 @@
       <p>智能交通實踐社由一班香港科技大學學生成立，致力推動本港公共/私人交通全面智能化、便利市民。</p>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-md-6"> <img src="img/about.jpg" class="img-responsive thumbnail" alt=""> </div>
-      <div class="col-xs-12 col-md-6">
+      <div class="col-xs-12 col-md-6 ptm">
+        <div class="thumbnail-container">
+          <img src="img/team-min.jpg" class="img-responsive thumbnail" alt="">
+          <p class="quote"><i>遇到問題就要去解決，無人解決就讓我們這年輕一代去解決 - 智能交通實踐社</i></p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 ptm">
         <div class="about-text">
-          <h3>我們的故事</h3>
+          <h3 class="mtn">我們的故事</h3>
           <p>由彩虹往科大的小巴經常大排長龍，焦慮不安的學生經常期盼着小巴的來臨。等小巴就像一場搏奕：究竟應該等下去，還是轉搭巴士？因為身同感受，所以一直在想，我們可以為科大這個社群做些甚麼嗎？</p>
           <p>於是帶著幾頁簡陋的PPT，與幾位小伙伴說明來意。有人選擇相信，亦有人覺得異想天開。於是便組成了一個研究小組，從此踏上未知的旅途。隨著系統研發，試過一天內同一條線搭十幾轉小巴用人手收集行車數據。試過cold call 過科大小巴線被告知等待經理回覆，從此杏無音訊。試過團隊內有不同意見，甚至想一度放棄。</p>
           <p>然而，每一次等待小巴、均重新提醒我們的初衷。輾轉機緣下，最終成功接洽一條港島線的小巴營運商，相信我們的理念並給予機會，最後於他們的車上作反覆試驗，半年後研製成功，並現正進入推廣階段。將來，希望結合更多年輕的同志，為香港、以至世界各地帶來一波又一波的交通革命，令出行全面智能化。</p>
           <p>這個社會，雖然有很多事情都不似預期。但我們仍相信香港值得更好。我們這一世代可以活得更好。年輕一代仍有無限可能性。
           <p>只因我們選擇相信。</p>
-          <h3>遇到問題就要去解決，無人解決就讓我們這年輕一代去解決 - 智能交通實踐社</h3>
         </div>
       </div>
     </div>
@@ -99,42 +109,76 @@
       <h2>系統簡介</h2>
       <hr>
       <p>我們用大眾化的技術架設人人都能使用的小巴到站實時預報系統</p>
-      <div class="row">
+      <!-- <div class="row">
         <span class="badge badge-pill blue">React Native</span>
         <span class="badge badge-pill orange">EmberJS</span>
         <span class="badge badge-pill red">Node.JS</span>
         <span class="badge badge-pill">MySQL</span>
-      </div>
+      </div> -->
     </div>
     <div class="row">
-      <div class="col-md-6">
-        <img src="img/app-on-iphone.png" width="100%">
+      <div class="col-md-6 block">
+        <img src="img/app-on-iphone.png" height="100%">
       </div>
-      <div class="col-md-6 desc">
+      <div class="col-md-6 desc block">
         <h4 class="section-header">小巴到哪兒手機App</h4>
-        <div class="divider"></div>
+        <hr>
         <p>
           我們的手機 App 支援 Android 手機及 iPhone，乘客打開手機，小巴到站時間就一目了然。
         </p>
+        <div class="row store-logos">
+          <img src="img/appstore-min.png">
+          <img src="img/playstore-min.png">
+        </div>
+        <span><center>即將推出</center></span>
       </div>
     </div>
-    <div class="row">
+    <div class="row plus">
       <img src="img/plus.svg" width="80px" style="margin: 24px auto 0 auto;" >
     </div>
     <div class="row">
-      <div class="col-md-6 desc">
+      <div class="col-md-6 desc block">
         <h4 class="section-header">硬件</h4>
-        <div class="divider"></div>
+        <hr>
         <p>
           我們利用 GPS 追蹤器收集小巴的實時位置，然後透過電腦計算出各小巴的預計到站時間。
         </p>
         <p>
-            我們提供兩種 GPS 追蹤器供小巴營運商選擇，擁有 <b>USB 插口</b>的小巴只需連接經調教的智能手機即可，非常方便。
-            <br>若小巴沒有空餘的 USB 插口，我們亦有另一款可安裝於<b>保險絲箱</b>的追蹤器。
+            我們會向小巴營運商提供 GPS 追蹤器以供安裝，並可支援 <b>USB 插口</b>或<b>保險絲箱</b>供電。
         </p>
       </div>
-      <div class="col-md-6 desc">
-        <img src="img/hardware.png" width="100%">
+      <div class="col-md-6 block">
+        <img src="img/a9g_development_board_1.png" height="240px">
+      </div>
+    </div>
+    <div class="row plus">
+      <img src="img/plus.svg" width="80px" style="margin: 24px auto 0 auto;" >
+    </div>
+    <div class="row">
+      <div class="col-md-6 block">
+        <img src="img/processing.svg" height="180px">
+      </div>
+      <div class="col-md-6 desc block">
+        <h4 class="section-header">電腦系統</h4>
+        <hr>
+        <p>
+          系統獲取小巴的實時位置後，將會計算出小巴的預計到站時間並透過小巴到哪兒手機 App 向用戶展示。
+        </p>
+      </div>
+    </div>
+    <div class="row equal">
+      <img src="img/equal.svg" width="80px" style="margin: 24px auto 0 auto;" >
+    </div>
+    <div class="row">
+      <div class="col-md-6 desc block">
+        <h4 class="section-header">小巴實時到站預服系統</h4>
+        <hr>
+        <p>
+          一切準備就緒後，乘客可以隨時查閱小巴的預計到站時間，讓他們有所預算。
+        </p>
+      </div>
+      <div class="col-md-6 block">
+        <img src="img/idea.svg" height="240px">
       </div>
     </div>
   </div>
@@ -146,7 +190,7 @@
     <div class="section-title center">
       <h2>計劃詳情</h2>
       <hr>
-      <p>我們的小巴實時預服系統計劃分為三個階段</p>
+      <p>我們的小巴實時到站預服系統計劃分為三個階段</p>
     </div>
     <div class="row">
       <div class="col-md-4 col-sm-4">
@@ -217,41 +261,41 @@
       <div class="col-md-4">
         <div class="entry">
           <div class="entry-media">
-            <a href="http://www.etnet.com.hk/www/tc/lifestyle/officetips/larryleung/56043" title="">
+            <a href="http://www.etnet.com.hk/www/tc/lifestyle/officetips/larryleung/56043" title="" target="_blank">
               <span class="absolute-wrapper"></span>
               <img src="img/new_1.jpg" style="height:200px; width:250px" alt="" class="img-responsive" />
             </a>
           </div>
-          <h3 class="entry-title"><a href="http://www.etnet.com.hk/www/tc/lifestyle/officetips/larryleung/56043" title="Yelp Is Awful for Everyone Involved">【5G車聯網】韓國實測全球首部5G自動車 科幻電影不再是幻想！</a></h3>
+          <h3 class="entry-title"><a href="http://www.etnet.com.hk/www/tc/lifestyle/officetips/larryleung/56043" target="_blank">【5G車聯網】韓國實測全球首部5G自動車 科幻電影不再是幻想！</a></h3>
           <p>“2018年2月，韓國電訊商SK Telecom與韓國運輸安全管理局合作進行全球首個基於5G網絡的自動車行車測試。在5G網絡支援下，兩輛自動車順利行駛約2公里的路程……”</p>
-          <a href="http://www.etnet.com.hk/www/tc/lifestyle/officetips/larryleung/56043" title="Learn More" class="btn read-more btn-sm btn-primary">了解更多</a>
+          <a href="http://www.etnet.com.hk/www/tc/lifestyle/officetips/larryleung/56043" title="Learn More" class="btn read-more btn-sm btn-primary" target="_blank">了解更多</a>
         </div><!--/.entry-->
       </div>
       <div class="col-md-4">
         <div class="entry">
           <div class="entry-media">
-            <a href="http://www.etnet.com.hk/www/tc/lifestyle/management/larryleung/55505" title="">
+            <a href="http://www.etnet.com.hk/www/tc/lifestyle/management/larryleung/55505" title="" target="_blank">
               <span class="absolute-wrapper"></span>
               <img src="img/new_2.jpg" style="height:200px; width:250px" alt="" class="img-responsive" />
             </a>
           </div>
-          <h3 class="entry-title"><a href="http://www.etnet.com.hk/www/tc/lifestyle/management/larryleung/55505" title="2 Best Sites to Build Your Own Website">【發展智慧城市】新加坡排No.1！力推自動車＋電子道路收費系統</a></h3>
+          <h3 class="entry-title"><a href="http://www.etnet.com.hk/www/tc/lifestyle/management/larryleung/55505" target="_blank">【發展智慧城市】新加坡排No.1！力推自動車＋電子道路收費系統</a></h3>
           <p>“新加坡自1998年起便實施電子道路收費計劃，在鬧市的繁忙路段劃出收費區，系統可根據路面擠塞程度作實時收費調整。當車輛進入收費區路段，便需付費通行……”</p>
-          <a href="http://www.etnet.com.hk/www/tc/lifestyle/management/larryleung/55505" title="Learn More" class="btn read-more btn-sm btn-primary">了解更多</a>
+          <a href="http://www.etnet.com.hk/www/tc/lifestyle/management/larryleung/55505" title="Learn More" class="btn read-more btn-sm btn-primary" target="_blank">了解更多</a>
         </div><!--/.entry-->
       </div>
       <div class="col-md-4">
         <div class="entry">
           <div class="entry-media">
-            <a href="https://travel.ulifestyle.com.hk/news/detail/22149/%E8%8B%B1%E5%9C%8B-%E6%8E%A8%E8%A1%8C%E6%99%BA%E8%83%BD%E4%BA%A4%E9%80%9A-%E7%A7%8B%E5%A4%A9%E9%81%8A-%E5%80%AB%E6%95%A6-%E8%A9%A6%E7%8E%A9%E7%84%A1%E4%BA%BA%E9%A7%95%E9%A7%9B%E8%BB%8A/1" title="">
+            <a href="https://travel.ulifestyle.com.hk/news/detail/22149/%E8%8B%B1%E5%9C%8B-%E6%8E%A8%E8%A1%8C%E6%99%BA%E8%83%BD%E4%BA%A4%E9%80%9A-%E7%A7%8B%E5%A4%A9%E9%81%8A-%E5%80%AB%E6%95%A6-%E8%A9%A6%E7%8E%A9%E7%84%A1%E4%BA%BA%E9%A7%95%E9%A7%9B%E8%BB%8A/1" title="" target="_blank">
               <span class="absolute-wrapper"></span>
               <img src="img/new_3.jpg" style="height:200px; width:250px" alt="" class="img-responsive" />
             </a>
           </div>
-          <h3 class="entry-title"><a href="https://travel.ulifestyle.com.hk/news/detail/22149/%E8%8B%B1%E5%9C%8B-%E6%8E%A8%E8%A1%8C%E6%99%BA%E8%83%BD%E4%BA%A4%E9%80%9A-%E7%A7%8B%E5%A4%A9%E9%81%8A-%E5%80%AB%E6%95%A6-%E8%A9%A6%E7%8E%A9%E7%84%A1%E4%BA%BA%E9%A7%95%E9%A7%9B%E8%BB%8A/1" title="2 Best Sites to Build Your Own Website">【英國推行智能交通】
+          <h3 class="entry-title"><a href="https://travel.ulifestyle.com.hk/news/detail/22149/%E8%8B%B1%E5%9C%8B-%E6%8E%A8%E8%A1%8C%E6%99%BA%E8%83%BD%E4%BA%A4%E9%80%9A-%E7%A7%8B%E5%A4%A9%E9%81%8A-%E5%80%AB%E6%95%A6-%E8%A9%A6%E7%8E%A9%E7%84%A1%E4%BA%BA%E9%A7%95%E9%A7%9B%E8%BB%8A/1" target="_blank">【英國推行智能交通】
 秋天遊 倫敦 試玩無人駕駛車</a></h3>
           <p>“英國 倫敦 推出了這架 Gateway 無人駕駛的小型電動車，早前曾於 倫敦 試行了三星期，共 100 名市民報名參與，反應熱烈；下一步將於今年秋天進行公開畀市民試搭……”</p>
-          <a href="https://travel.ulifestyle.com.hk/news/detail/22149/%E8%8B%B1%E5%9C%8B-%E6%8E%A8%E8%A1%8C%E6%99%BA%E8%83%BD%E4%BA%A4%E9%80%9A-%E7%A7%8B%E5%A4%A9%E9%81%8A-%E5%80%AB%E6%95%A6-%E8%A9%A6%E7%8E%A9%E7%84%A1%E4%BA%BA%E9%A7%95%E9%A7%9B%E8%BB%8A/1" title="Learn More" class="btn read-more btn-sm btn-primary">了解更多</a>
+          <a href="https://travel.ulifestyle.com.hk/news/detail/22149/%E8%8B%B1%E5%9C%8B-%E6%8E%A8%E8%A1%8C%E6%99%BA%E8%83%BD%E4%BA%A4%E9%80%9A-%E7%A7%8B%E5%A4%A9%E9%81%8A-%E5%80%AB%E6%95%A6-%E8%A9%A6%E7%8E%A9%E7%84%A1%E4%BA%BA%E9%A7%95%E9%A7%9B%E8%BB%8A/1" title="Learn More" class="btn read-more btn-sm btn-primary" target="_blank">了解更多</a>
         </div><!--/.entry-->
       </div>
     </div><!--/.row-->
@@ -264,10 +308,11 @@
       <h2>聯絡我們</h2>
       <hr>
       <p>如有查詢/疑問，可直接於下方輸入内容並提交。(請留下聯絡資料)</p>
-      <ul>
-        <li>電郵: contact@civilmobilityhk.com</li>
-        <li>電話: 6277 3337 (Jason)</li>
-        <li>Facebook: 智能交通實踐社</li>
+      <br>
+      <ul class="contact">
+        <li>電郵: <a href="mailto:contact@civilmobilityhk.com">contact@civilmobilityhk.com</a></li>
+        <li>電話: <a href="tel:96649906">6277 3337</a> (Jason)</li>
+        <li>Facebook: <a href="https://www.facebook.com/%E6%99%BA%E8%83%BD%E4%BA%A4%E9%80%9A%E5%AF%A6%E8%B8%90%E7%A4%BE-1811064715673317/" target="_blank">智能交通實踐社</a></li>
       </ul>
     </div>
     <div class="col-md-8 col-md-offset-2">
@@ -291,28 +336,27 @@
           <p class="help-block text-danger"></p>
         </div>
         <div id="success"></div>
-        <button type="submit" class="btn btn-custom btn-lg">送出訊息</button>
+        <button id='askus' class="btn btn-custom btn-lg ">送出訊息</button>
       </form>
-      <div class="social">
-        <ul>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-        </ul>
-      </div>
     </div>
   </div>
 </div>
 <div id="footer">
   <div class="container text-center">
+    智能交通實踐社 @ 2018
   </div>
 </div>
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/SmoothScroll.js"></script>
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-<script type="text/javascript" src="js/contact_me.js"></script>
+<!-- <script type="text/javascript" src="js/contact_me.js"></script> -->
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_PtBNMG16RLwAeOQKbqhHI");
+   })();
+</script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
