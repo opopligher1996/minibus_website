@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
 body, html {
-	font-family: 'Noto Sans TC', 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #666;
