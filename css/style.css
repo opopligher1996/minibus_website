@@ -551,3 +551,14 @@ h2.section-title + p {
 .contact {
 	font-size: 16px;
 }
+
+.entry {
+	padding: 12px;
+	margin: 12px 0;
+	border: 1px solid #D8D8D8;
+	border-radius: 3px;
+}
+
+.snippet {
+	height: 265px;
+}
